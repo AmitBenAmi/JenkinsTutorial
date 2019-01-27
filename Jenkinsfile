@@ -6,6 +6,7 @@ pipeline {
                 sh ''' 
                     npm --version
                     node --version
+                    echo "This works :)"
                 '''
             }
         }
